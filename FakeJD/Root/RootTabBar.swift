@@ -13,15 +13,15 @@ struct RootTabBar: View {
     var body: some View {
         VStack {
             TabView(selection: $selectedIndex) {
-                Home().tabItem {
+                Examples().tabItem {
                     Label("首页", systemImage: "house")
                 }
                 .tag(0)
-                Text("B").tabItem {
+                Products().tabItem {
                     Label("新品", systemImage: "shippingbox")
                 }
                 .tag(1)
-                Text("C").tabItem {
+                Descovery().tabItem {
                     Label("逛", systemImage: "creditcard")
                 }
                 .tag(2)
@@ -29,7 +29,7 @@ struct RootTabBar: View {
                     Label("购物车", systemImage: "cart")
                 }
                 .tag(3)
-                Text("E").tabItem {
+                Mine().tabItem {
                     Label("我的", systemImage: "person")
                 }
                 .tag(4)
