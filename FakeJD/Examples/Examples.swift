@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct Examples: View {
+    @EnvironmentObject var appDelegate: AppDelegate
+    
     @State var isOnText = "isOff"
     @State var isActive = false
     @State var isSwitchOn = false
