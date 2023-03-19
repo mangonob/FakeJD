@@ -9,20 +9,35 @@ import SwiftUI
 
 struct Examples: View {
     @EnvironmentObject var appDelegate: AppDelegate
+    @Environment(\.dismiss) var dismiss
+    @Environment(\.isPresented) var isPresented
     
+    @State var isShowSheet: Bool = false
     @State var isOnText = "isOff"
     @State var isActive = false
     @State var isSwitchOn = false
-    @State var currentIndex = 0
-    @State var pickerValue = 0
+    @AppStorage("currentIndex") var currentIndex = 0
+    @AppStorage("pickerValue") var pickerValue = 0
     @State var color: Color = .blue
     @ScaledMetric(relativeTo: .title) var scaled = 1
-    @State var starRating = 0
+    @AppStorage("starRating") var starRating = 0
     
     var body: some View {
         ScrollView {
             VStack {
                 VStack {
+                    if isPresented {
+                        Button("Dismiss") {
+                            dismiss.callAsFunction()
+                        }
+                        .padding()
+                    }
+                    
+                    Button("Present") {
+                        isShowSheet = true
+                    }
+                    .padding()
+                    
                     StarRating(rating: $starRating)
                         .imageScale(.large)
                     
@@ -124,6 +139,12 @@ struct Examples: View {
                 }
                 .padding(10)
             }
+        }
+        .sheet(isPresented: $isShowSheet, content: {
+            Examples()
+        })
+        .refreshable {
+            try? await Task.sleep(for: .milliseconds(1500))
         }
     }
 }
