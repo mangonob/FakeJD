@@ -8,6 +8,12 @@
 import SwiftUI
 
 extension Color {
-    static let mainColor = Color(red: 0.91, green: 0.29, blue: 0.25)
+    static let mainColor = Color(rgb: 0xF9E14B)
+    
+    static let backgroundDeep = Color(rgb: 0x14151B)
+    static let backgroundContent = Color(rgb: 0x202129)
+    static let backgroundContentSecondary = Color(rgb: 0x262731)
+    
+    static let borderTertiary = Color(rgb: 0x424352)
 }
 

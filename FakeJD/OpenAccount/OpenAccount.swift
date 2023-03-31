@@ -1,20 +1,20 @@
 //
-//  Descovery.swift
+//  OpenAccount.swift
 //  FakeJD
 //
-//  Created by mangonob on 2023/3/16.
+//  Created by mangonob on 2023/3/31.
 //
 
 import SwiftUI
 
-struct Descovery: View {
+struct OpenAccount: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct Descovery_Previews: PreviewProvider {
+struct OpenAccount_Previews: PreviewProvider {
     static var previews: some View {
-        Descovery()
+        OpenAccount()
     }
 }

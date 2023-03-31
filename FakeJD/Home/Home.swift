@@ -11,79 +11,26 @@ struct Home: View {
     @State var text: String = ""
     
     var body: some View {
-        ScrollView {
-            TextField(text: $text) {
-                Text("Input")
-            }
+        ZStack(alignment: .top) {
+            Rectangle()
+                .frame(height: 200)
+                .foregroundColor(Color.mainColor)
+                .ignoresSafeArea()
             
-            LazyVGrid(columns: [
-                GridItem(.flexible(), spacing: 10, alignment: .top),
-                GridItem(.flexible(), spacing: 10, alignment: .top),
-            ], spacing: 10) {
-                ForEach((0..<4), id: \.self) { index in
-                    Text("Item \(index)")
-                        .frame(height: 200 + sin(CGFloat(index) / (2 * .pi)) * 100)
-                        .frame(maxWidth: .infinity)
-                        .background(.green)
+            VStack(spacing: 0) {
+                NavigationBar()
+                
+                ScrollView {
+                    Rectangle()
+                        .frame(height: 1000)
+                        .foregroundColor(.backgroundContentSecondary)
                         .cornerRadius(10)
+                        .padding(20)
                 }
             }
-            .padding(.horizontal, 8)
-            
-            LazyVGrid(columns: [
-                GridItem(.flexible(), spacing: 4, alignment: .top),
-                GridItem(.flexible(), spacing: 4, alignment: .top),
-                GridItem(.flexible(), spacing: 4, alignment: .top),
-                GridItem(.flexible(), spacing: 4, alignment: .top),
-                GridItem(.flexible(), spacing: 4, alignment: .top),
-            ], spacing: 4) {
-                ForEach((0..<10), id: \.self) { index in
-                    NavigationLink {
-                        Home()
-                    } label: {
-                        Text("Item \(index)")
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            .background(.orange)
-                            .cornerRadius(4)
-                            .aspectRatio(1, contentMode: ContentMode.fill)
-                            .foregroundColor(.black)
-                    }
-                }
-            }
-            .padding(.horizontal, 8)
-            
-            ScrollView(.horizontal, showsIndicators: false) {
-                LazyHGrid(rows: [
-                    GridItem(.flexible(), spacing: 4, alignment: .top),
-                    GridItem(.flexible(), spacing: 4, alignment: .top),
-                ], spacing: 4) {
-                    ForEach((0..<200), id: \.self) { index in
-                        Text("Item \(index)")
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            .background(.pink)
-                            .cornerRadius(4)
-                            .aspectRatio(1, contentMode: ContentMode.fill)
-                    }
-                }
-                .frame(height: 100)
-            }
-            .padding(.horizontal, 8)
-            
-            LazyVGrid(columns: [
-                GridItem(.flexible(), spacing: 10, alignment: .top),
-                GridItem(.flexible(), spacing: 10, alignment: .top),
-            ], spacing: 10) {
-                ForEach((0...9999), id: \.self) { index in
-                    Text("Item \(index)")
-                        .frame(height: 200 + sin(CGFloat(index) / (2 * .pi)) * 100)
-                        .frame(maxWidth: .infinity)
-                        .background(.red)
-                        .cornerRadius(10)
-                }
-            }
-            .padding(.horizontal, 8)
         }
-        .toolbar(.hidden, for: .navigationBar)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.backgroundDeep)
     }
 }
 

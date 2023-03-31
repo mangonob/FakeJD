@@ -10,28 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            List {
-                Image("environment-values-hero")
-                    .resizable()
-                    .scaledToFit()
-                    .listRowInsets(EdgeInsets())
-                Section {
-                    NavigationLink {
-                        Examples().defaultNavigate(title: "Examples")
-                    } label: {
-                        Text("Examples")
-                    }
-                    NavigationLink {
-                        Wave().defaultNavigate(title: "Wave")
-                    } label: {
-                        Text("Animatable")
-                    }
-                }
-            }
-            .toolbar(.visible, for: .navigationBar)
-            .navigationTitle("SwiftUI Playground")
+            RootTabBar()
         }
-        .preferredColorScheme(.light)
+        .preferredColorScheme(.dark)
         .dynamicTypeSize(.large)
     }
 }
