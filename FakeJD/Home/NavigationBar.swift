@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct NavigationBar: View {
+    var backgroundOpacity: Double = 1
+    
     var body: some View {
         Rectangle()
             .frame(height: 44)
-            .background(Color.backgroundContent)
-            .foregroundColor(Color.backgroundContent)
+            .background(Color.backgroundContent.opacity(backgroundOpacity))
+            .foregroundColor(.clear)
     }
 }
 
