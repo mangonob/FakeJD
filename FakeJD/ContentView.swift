@@ -8,12 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var statusBarStyle: ColorScheme = .dark
+    @State var rootType: RootType = .launch
+    
     var body: some View {
         NavigationStack {
-            RootTabBar()
+            Group {
+                switch rootType {
+                case .launch:
+                    Launch()
+                case .root:
+                    RootTabBar()
+                }
+            }
+            .transition(.opacity)
         }
-        .preferredColorScheme(.dark)
+        .preferredColorScheme(statusBarStyle == .dark ? .light : .dark)
+        .onStatusBarColorSchemeChanged { statusBarStyle = $0 }
         .dynamicTypeSize(.large)
+        .task {
+            Task {
+                try await Task.sleep(for: .seconds(3))
+                withAnimation(.easeOut(duration: 1)) {
+                    rootType = .root
+                }
+            }
+        }
     }
 }
 
@@ -29,29 +49,14 @@ struct DefaultNavigationContentModifier: ViewModifier {
     }
 }
 
+enum RootType {
+    case launch
+    case root
+}
+
 extension View {
     func defaultNavigate(title: String) -> some View {
         self.modifier(DefaultNavigationContentModifier(title: title))
-    }
-}
-
-struct ScrollableModifier: ViewModifier {
-    var isScrollable: Bool
-    
-    func body(content: Content) -> some View {
-        if (isScrollable) {
-            ScrollView {
-                content
-            }
-        } else {
-            content
-        }
-    }
-}
-
-extension View {
-    func scrollable() -> some View {
-        self.modifier(ScrollableModifier(isScrollable: true))
     }
 }
 

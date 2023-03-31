@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct Home: View {
-    @State var text: String = ""
-    @State var barOpacity: Double = 0
+    @State var barProgress: Double = 0
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -19,7 +18,7 @@ struct Home: View {
                 .ignoresSafeArea()
             
             VStack(spacing: 0) {
-                NavigationBar(backgroundOpacity: barOpacity)
+                NavigationBar(progress: barProgress)
                 
                 ScrollView {
                     LazyVStack(spacing: 0) {
@@ -28,14 +27,14 @@ struct Home: View {
                                 let offset = geometry.frame(in: .named("homeScroll")).minY
                                 EmptyView()
                                     .onChange(of: offset) { newValue in
-                                        barOpacity = min(max(Double(-newValue) / 200, 0), 1)
+                                        barProgress = min(max(Double(-newValue) / 200, 0), 1)
                                     }
                             }
                         }
                         .frame(height: 0)
                         
                         Rectangle()
-                            .frame(height: 3000)
+                            .frame(height: 10000)
                             .foregroundColor(.backgroundContentSecondary)
                             .cornerRadius(10)
                             .padding(20)
@@ -46,6 +45,7 @@ struct Home: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.backgroundDeep)
+        .preferredStatusBarColorScheme(barProgress > 0.5 ? .light : .dark)
     }
 }
 

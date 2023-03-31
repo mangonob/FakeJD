@@ -20,7 +20,18 @@ struct FakeJDApp: App {
 
 class AppDelegate: NSObject, UIApplicationDelegate, ObservableObject {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        swizzing()
+        
         return true
+    }
+    
+    func swizzing() {
+        let original = class_getInstanceMethod(UITabBarController.self, #selector(UITabBarController.viewWillAppear(_:)))
+        let replace = class_getInstanceMethod(UITabBarController.self, #selector(UITabBarController._viewWillAppear(_:)))
+        
+        if let original = original, let replace = replace {
+            method_exchangeImplementations(original, replace)
+        }
     }
     
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
@@ -38,4 +49,11 @@ class AppDelegate: NSObject, UIApplicationDelegate, ObservableObject {
 }
 
 class SceneDelegate: NSObject, UIWindowSceneDelegate, ObservableObject {
+}
+
+extension UITabBarController {
+    @objc fileprivate func _viewWillAppear(_ animated: Bool) {
+        _viewWillAppear(animated)
+        tabBar.isHidden = true
+    }
 }

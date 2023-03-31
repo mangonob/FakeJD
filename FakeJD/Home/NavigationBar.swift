@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct NavigationBar: View {
-    var backgroundOpacity: Double = 1
+    var progress: Double = 1
+    
+    private var foregroundColor: Color {
+        progress > 0.5 ? .white : .black
+    }
     
     var body: some View {
-        Rectangle()
-            .frame(height: 44)
-            .background(Color.backgroundContent.opacity(backgroundOpacity))
-            .foregroundColor(.clear)
+        HStack {
+            Group {
+                Text("老虎國際")
+                Spacer()
+                Image(systemName: "magnifyingglass").padding(4)
+                Image(systemName: "text.bubble").padding(4)
+            }
+            .foregroundColor(foregroundColor)
+        }
+        .padding(.horizontal, 16)
+        .padding(.vertical, 8)
+        .frame(minHeight: 44)
+        .background(Color.backgroundContent.opacity(progress))
+        .foregroundColor(.clear)
+        .padding(.bottom, -1)
     }
 }
 
