@@ -39,7 +39,7 @@ struct Home: View {
                         
                         OpenAccountTips()
                         WatchListSection()
-                        WatchListSection()
+                        InvestmentPlanSection()
                         WatchListSection()
                         WatchListSection()
                         WatchListSection()

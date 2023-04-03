@@ -36,7 +36,7 @@ struct OpenAccountTips: View {
                 Spacer()
                 
                 HStack {
-                    Rectangle()
+                    Placeholder(title: "占位图")
                         .frame(width: 100)
                         .foregroundColor(.clear)
                 }

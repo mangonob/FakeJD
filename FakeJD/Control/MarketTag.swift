@@ -31,10 +31,10 @@ struct MarketTag: View {
     
     var body: some View {
         Text(market.rawValue.uppercased())
-            .font(.system(size: 14, weight: .light))
+            .font(.system(size: 12, weight: .light))
             .foregroundColor(textColor)
             .padding(.horizontal, 2)
-            .background(textColor.opacity(0.5))
+            .background(textColor.opacity(0.2))
             .cornerRadius(2)
     }
 }
@@ -58,7 +58,7 @@ enum Market: String {
 
 struct MarketTag_Previews: PreviewProvider {
     static var previews: some View {
-        VStack {
+        VStack(spacing: 8) {
             MarketTag(market: .us)
             MarketTag(market: .hk)
             MarketTag(market: .sh)
