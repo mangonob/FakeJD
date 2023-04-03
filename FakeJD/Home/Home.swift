@@ -9,36 +9,42 @@ import SwiftUI
 
 struct Home: View {
     @State var barProgress: Double = 0
+    @State var backgroundYOffset: Double = 0
     
     var body: some View {
         ZStack(alignment: .top) {
             Rectangle()
                 .frame(height: 200)
                 .foregroundColor(Color.mainColor)
+                .transformEffect(.init(translationX: 0, y: backgroundYOffset))
                 .ignoresSafeArea()
             
             VStack(spacing: 0) {
                 NavigationBar(progress: barProgress)
                 
                 ScrollView {
-                    LazyVStack(spacing: 0) {
+                    VStack(spacing: 10) {
                         ZStack {
                             GeometryReader { geometry in
                                 let offset = geometry.frame(in: .named("homeScroll")).minY
                                 EmptyView()
                                     .onChange(of: offset) { newValue in
-                                        barProgress = min(max(Double(-newValue) / 200, 0), 1)
+                                        let distance: Double = 200
+                                        barProgress = min(max(Double(-newValue) / distance, 0), 1)
+                                        backgroundYOffset = min(0, newValue)
                                     }
                             }
                         }
                         .frame(height: 0)
                         
-                        Rectangle()
-                            .frame(height: 10000)
-                            .foregroundColor(.backgroundContentSecondary)
-                            .cornerRadius(10)
-                            .padding(20)
+                        OpenAccountTips()
+                        WatchListSection()
+                        WatchListSection()
+                        WatchListSection()
+                        WatchListSection()
+                        WatchListSection()
                     }
+                    .padding(20)
                 }
                 .coordinateSpace(name: "homeScroll")
             }

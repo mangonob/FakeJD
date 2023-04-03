@@ -16,6 +16,17 @@ struct NavigationBar: View {
     
     var body: some View {
         HStack {
+            ZStack {
+                ForEach(0..<3, id: \.self) { _ in
+                    Image("tiger")
+                        .resizable()
+                        .blendMode(.plusDarker)
+                        .aspectRatio(1, contentMode: .fit)
+                        .frame(width: 24)
+                }
+            }
+            .background(Circle().foregroundColor(.mainColor).padding(1))
+            
             Group {
                 Text("老虎國際")
                 Spacer()

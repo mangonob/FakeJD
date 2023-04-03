@@ -1,15 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "合成 1_00099.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "morning_newspaper_message_image@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "morning_newspaper_message_image@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

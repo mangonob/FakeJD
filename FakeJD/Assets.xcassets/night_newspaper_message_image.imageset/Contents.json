@@ -1,15 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "Flowers_2_Pink_Peony.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "night_newspaper_message_image@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "night_newspaper_message_image@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

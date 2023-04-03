@@ -15,5 +15,21 @@ extension Color {
     static let backgroundContentSecondary = Color(rgb: 0x262731)
     
     static let borderTertiary = Color(rgb: 0x424352)
+    
+    static let textPrimary = Color(rgb: 0xFFFFFF)
+    static let textSecondary = Color(rgb: 0x9C9CBB)
+    
+    static let lightPink = Color(rgb: 0xE0625B)
+    static let pinkGreen = Color(rgb: 0x61C484)
+    
+    static func colorForSign<T: BinaryFloatingPoint>(_ value: T) -> Color {
+        if value > 0.0 {
+            return .lightPink
+        } else if value < 0.0 {
+            return .pinkGreen
+        } else {
+            return .textSecondary
+        }
+    }
 }
 

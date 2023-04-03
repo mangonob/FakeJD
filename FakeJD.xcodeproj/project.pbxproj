@@ -103,6 +103,13 @@
 		4A544E8329BF544D00BDFAC8 /* RootTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A544E8229BF544D00BDFAC8 /* RootTabBar.swift */; };
 		4A544E8529BF547E00BDFAC8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A544E8429BF547E00BDFAC8 /* Home.swift */; };
 		4A63D63329DB153200FEA595 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D63229DB153200FEA595 /* Launch.swift */; };
+		4A63D63529DB1E7400FEA595 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A63D63429DB1E7400FEA595 /* Launch Screen.storyboard */; };
+		4A63D63729DB205D00FEA595 /* OpenAccountTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D63629DB205D00FEA595 /* OpenAccountTips.swift */; };
+		4A63D63A29DB220E00FEA595 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D63929DB220E00FEA595 /* SimpleButton.swift */; };
+		4A63D63D29DB287D00FEA595 /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D63C29DB287D00FEA595 /* HomeSection.swift */; };
+		4A63D64029DB29D600FEA595 /* AssertListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D63F29DB29D600FEA595 /* AssertListItem.swift */; };
+		4A63D64229DB2AE100FEA595 /* MarketTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D64129DB2AE100FEA595 /* MarketTag.swift */; };
+		4A63D64429DB366C00FEA595 /* WatchListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D64329DB366C00FEA595 /* WatchListSection.swift */; };
 		4A67943E29DAB7F100EA5917 /* StatusBarColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67943D29DAB7F100EA5917 /* StatusBarColorScheme.swift */; };
 		4A67944129DABA8700EA5917 /* FFI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67944029DABA8700EA5917 /* FFI.swift */; };
 		4A8AD4B129D6C77F00C2D013 /* OpenAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD4B029D6C77F00C2D013 /* OpenAccount.swift */; };
@@ -260,6 +267,13 @@
 		4A544E8229BF544D00BDFAC8 /* RootTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBar.swift; sourceTree = "<group>"; };
 		4A544E8429BF547E00BDFAC8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		4A63D63229DB153200FEA595 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		4A63D63429DB1E7400FEA595 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4A63D63629DB205D00FEA595 /* OpenAccountTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAccountTips.swift; sourceTree = "<group>"; };
+		4A63D63929DB220E00FEA595 /* SimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleButton.swift; sourceTree = "<group>"; };
+		4A63D63C29DB287D00FEA595 /* HomeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSection.swift; sourceTree = "<group>"; };
+		4A63D63F29DB29D600FEA595 /* AssertListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertListItem.swift; sourceTree = "<group>"; };
+		4A63D64129DB2AE100FEA595 /* MarketTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTag.swift; sourceTree = "<group>"; };
+		4A63D64329DB366C00FEA595 /* WatchListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListSection.swift; sourceTree = "<group>"; };
 		4A67943D29DAB7F100EA5917 /* StatusBarColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarColorScheme.swift; sourceTree = "<group>"; };
 		4A67944029DABA8700EA5917 /* FFI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFI.swift; sourceTree = "<group>"; };
 		4A8AD4B029D6C77F00C2D013 /* OpenAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAccount.swift; sourceTree = "<group>"; };
@@ -487,6 +501,7 @@
 		4A544E5229BF4D0500BDFAC8 /* FakeJD */ = {
 			isa = PBXGroup;
 			children = (
+				4A63D63829DB220300FEA595 /* Control */,
 				4AF698AE29DAF3B400C0595C /* Resources */,
 				4A67943B29DAB7CF00EA5917 /* Modifier */,
 				4AD59F1C29CD7DB700E02F5D /* Extension */,
@@ -500,6 +515,7 @@
 				4A544E7D29BF4FA600BDFAC8 /* Appearence */,
 				4A544E5329BF4D0500BDFAC8 /* FakeJDApp.swift */,
 				4A544E5529BF4D0500BDFAC8 /* ContentView.swift */,
+				4A63D63429DB1E7400FEA595 /* Launch Screen.storyboard */,
 				4A544E5729BF4D0600BDFAC8 /* Assets.xcassets */,
 				4A544E5929BF4D0600BDFAC8 /* Preview Content */,
 			);
@@ -556,6 +572,9 @@
 			children = (
 				4A544E8429BF547E00BDFAC8 /* Home.swift */,
 				4A8AD4B829D6DAEA00C2D013 /* NavigationBar.swift */,
+				4A63D63629DB205D00FEA595 /* OpenAccountTips.swift */,
+				4A63D63C29DB287D00FEA595 /* HomeSection.swift */,
+				4A63D64329DB366C00FEA595 /* WatchListSection.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -566,6 +585,16 @@
 				4A8AD4B429D6C84E00C2D013 /* Community.swift */,
 			);
 			path = Community;
+			sourceTree = "<group>";
+		};
+		4A63D63829DB220300FEA595 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				4A63D63929DB220E00FEA595 /* SimpleButton.swift */,
+				4A63D63F29DB29D600FEA595 /* AssertListItem.swift */,
+				4A63D64129DB2AE100FEA595 /* MarketTag.swift */,
+			);
+			path = Control;
 			sourceTree = "<group>";
 		};
 		4A67943B29DAB7CF00EA5917 /* Modifier */ = {
@@ -813,6 +842,7 @@
 				4A4A616C29DB0A8100FCF221 /* tabbar_v80_tab_1.pag in Resources */,
 				4A4A616329DB0A8100FCF221 /* tb_no_push_setting.pag in Resources */,
 				4A4A614D29DB0A8100FCF221 /* tabbar_v80_tab_3.pag in Resources */,
+				4A63D63529DB1E7400FEA595 /* Launch Screen.storyboard in Resources */,
 				4A4A616929DB0A8100FCF221 /* membership_upgrade_7.pag in Resources */,
 				4A4A615729DB0A8100FCF221 /* tabbar_v80_tab_0_top.pag in Resources */,
 				4A4A615329DB0A8100FCF221 /* membership_upgrade_3.pag in Resources */,
@@ -984,6 +1014,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A63D64029DB29D600FEA595 /* AssertListItem.swift in Sources */,
+				4A63D63729DB205D00FEA595 /* OpenAccountTips.swift in Sources */,
 				4A8AD4B929D6DAEA00C2D013 /* NavigationBar.swift in Sources */,
 				4A8AD4B529D6C84E00C2D013 /* Community.swift in Sources */,
 				4A8AD4B129D6C77F00C2D013 /* OpenAccount.swift in Sources */,
@@ -993,16 +1025,20 @@
 				4AF698AD29D9CCAA00C0595C /* Tabs.swift in Sources */,
 				4A67943E29DAB7F100EA5917 /* StatusBarColorScheme.swift in Sources */,
 				4A356E8A29CA19520041315F /* JDWidget.intentdefinition in Sources */,
+				4A63D64229DB2AE100FEA595 /* MarketTag.swift in Sources */,
 				4AF698D129DAF44200C0595C /* LottieView.swift in Sources */,
+				4A63D63A29DB220E00FEA595 /* SimpleButton.swift in Sources */,
 				4A544E7F29BF4FB300BDFAC8 /* Colors.swift in Sources */,
 				4A0058D829C45B320065EEE2 /* Subway.swift in Sources */,
 				4AF698A929D779DF00C0595C /* TabBar.swift in Sources */,
+				4A63D64429DB366C00FEA595 /* WatchListSection.swift in Sources */,
 				4A544E8529BF547E00BDFAC8 /* Home.swift in Sources */,
 				4A63D63329DB153200FEA595 /* Launch.swift in Sources */,
 				4AD59F1E29CD7DD100E02F5D /* Utils.swift in Sources */,
 				4A544E5429BF4D0500BDFAC8 /* FakeJDApp.swift in Sources */,
 				4A0058D629C45ABF0065EEE2 /* Examples.swift in Sources */,
 				4A1B859329C2BFF0000A428D /* Mine.swift in Sources */,
+				4A63D63D29DB287D00FEA595 /* HomeSection.swift in Sources */,
 				4A544E8329BF544D00BDFAC8 /* RootTabBar.swift in Sources */,
 				4A98891B29C580CD0047D558 /* StarRating.swift in Sources */,
 				4A8AD4B729D6CDEB00C2D013 /* Color+RGB.swift in Sources */,
@@ -1233,6 +1269,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -1265,6 +1302,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
