@@ -23,7 +23,7 @@ struct Home: View {
                 NavigationBar(progress: barProgress)
                 
                 ScrollView {
-                    VStack(spacing: 10) {
+                    VStack(spacing: 0) {
                         ZStack {
                             GeometryReader { geometry in
                                 let offset = geometry.frame(in: .named("homeScroll")).minY
@@ -37,14 +37,8 @@ struct Home: View {
                         }
                         .frame(height: 0)
                         
-                        OpenAccountTips()
-                        WatchListSection()
-                        InvestmentPlanSection()
-                        WatchListSection()
-                        WatchListSection()
-                        WatchListSection()
+                        content
                     }
-                    .padding(20)
                 }
                 .coordinateSpace(name: "homeScroll")
             }
@@ -52,6 +46,19 @@ struct Home: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.backgroundDeep)
         .preferredStatusBarColorScheme(barProgress > 0.5 ? .light : .dark)
+    }
+    
+    private var content: some View {
+        LazyVStack(spacing: 10) {
+            OpenAccountTips()
+            WatchListSection()
+            InvestmentPlanSection()
+            HotpotSection()
+            WatchListSection()
+            WatchListSection()
+            WatchListSection()
+        }
+        .padding(20)
     }
 }
 

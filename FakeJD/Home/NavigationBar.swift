@@ -29,6 +29,7 @@ struct NavigationBar: View {
             
             Group {
                 Text("老虎國際")
+                    .font(.system(size: 17, weight: .semibold))
                 Spacer()
                 Image(systemName: "magnifyingglass").padding(4)
                 Image(systemName: "text.bubble").padding(4)

@@ -116,6 +116,7 @@
 		4A67944329DBB21E00EA5917 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67944229DBB21E00EA5917 /* Placeholder.swift */; };
 		4A67944529DBD14D00EA5917 /* InvestmentPlanSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67944429DBD14D00EA5917 /* InvestmentPlanSection.swift */; };
 		4A67944729DBD1C800EA5917 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67944629DBD1C800EA5917 /* Rate.swift */; };
+		4A67944929DBD60500EA5917 /* HotpotSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67944829DBD60500EA5917 /* HotpotSection.swift */; };
 		4A8AD4B129D6C77F00C2D013 /* OpenAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD4B029D6C77F00C2D013 /* OpenAccount.swift */; };
 		4A8AD4B329D6C79B00C2D013 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD4B229D6C79B00C2D013 /* Quote.swift */; };
 		4A8AD4B529D6C84E00C2D013 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD4B429D6C84E00C2D013 /* Community.swift */; };
@@ -284,6 +285,7 @@
 		4A67944229DBB21E00EA5917 /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
 		4A67944429DBD14D00EA5917 /* InvestmentPlanSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentPlanSection.swift; sourceTree = "<group>"; };
 		4A67944629DBD1C800EA5917 /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		4A67944829DBD60500EA5917 /* HotpotSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotpotSection.swift; sourceTree = "<group>"; };
 		4A8AD4B029D6C77F00C2D013 /* OpenAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAccount.swift; sourceTree = "<group>"; };
 		4A8AD4B229D6C79B00C2D013 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		4A8AD4B429D6C84E00C2D013 /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
@@ -584,6 +586,7 @@
 				4A63D63C29DB287D00FEA595 /* HomeSection.swift */,
 				4A63D64329DB366C00FEA595 /* WatchListSection.swift */,
 				4A67944429DBD14D00EA5917 /* InvestmentPlanSection.swift */,
+				4A67944829DBD60500EA5917 /* HotpotSection.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -1025,7 +1028,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A63D64029DB29D600FEA595 /* AssertListItem.swift in Sources */,
+				4A63D64029DB29D600FEA595 /* AssetListItem.swift in Sources */,
+				4A67944929DBD60500EA5917 /* HotpotSection.swift in Sources */,
+				4A67944529DBD14D00EA5917 /* InvestmentPlanSection.swift in Sources */,
 				4A63D63729DB205D00FEA595 /* OpenAccountTips.swift in Sources */,
 				4A8AD4B929D6DAEA00C2D013 /* NavigationBar.swift in Sources */,
 				4A8AD4B529D6C84E00C2D013 /* Community.swift in Sources */,
