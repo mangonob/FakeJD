@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct Quote: View {
+    @State var currentIndex = 0
+    
     var body: some View {
-        Text("Hello, World!")
-            .preferredStatusBarColorScheme(.light)
+        ScrollView {
+            SegmentControl(currentIndex: $currentIndex, options: [
+                "全部",
+                "美股",
+                "港股",
+                "沪深",
+                "伦敦",
+                "新加坡",
+                "澳洲",
+            ])
+        }
+        .background(Color.backgroundDeep)
+        .preferredStatusBarColorScheme(.light)
     }
 }
 

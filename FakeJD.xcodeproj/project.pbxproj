@@ -110,6 +110,7 @@
 		4A63D64029DB29D600FEA595 /* AssertListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D63F29DB29D600FEA595 /* AssertListItem.swift */; };
 		4A63D64229DB2AE100FEA595 /* MarketTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D64129DB2AE100FEA595 /* MarketTag.swift */; };
 		4A63D64429DB366C00FEA595 /* WatchListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D64329DB366C00FEA595 /* WatchListSection.swift */; };
+		4A63D64629DDCDE300FEA595 /* SegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D64529DDCDE300FEA595 /* SegmentControl.swift */; };
 		4A67943E29DAB7F100EA5917 /* StatusBarColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67943D29DAB7F100EA5917 /* StatusBarColorScheme.swift */; };
 		4A67944129DABA8700EA5917 /* FFI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67944029DABA8700EA5917 /* FFI.swift */; };
 		4A8AD4B129D6C77F00C2D013 /* OpenAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD4B029D6C77F00C2D013 /* OpenAccount.swift */; };
@@ -274,6 +275,7 @@
 		4A63D63F29DB29D600FEA595 /* AssertListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertListItem.swift; sourceTree = "<group>"; };
 		4A63D64129DB2AE100FEA595 /* MarketTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTag.swift; sourceTree = "<group>"; };
 		4A63D64329DB366C00FEA595 /* WatchListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListSection.swift; sourceTree = "<group>"; };
+		4A63D64529DDCDE300FEA595 /* SegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControl.swift; sourceTree = "<group>"; };
 		4A67943D29DAB7F100EA5917 /* StatusBarColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarColorScheme.swift; sourceTree = "<group>"; };
 		4A67944029DABA8700EA5917 /* FFI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFI.swift; sourceTree = "<group>"; };
 		4A8AD4B029D6C77F00C2D013 /* OpenAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAccount.swift; sourceTree = "<group>"; };
@@ -593,6 +595,7 @@
 				4A63D63929DB220E00FEA595 /* SimpleButton.swift */,
 				4A63D63F29DB29D600FEA595 /* AssertListItem.swift */,
 				4A63D64129DB2AE100FEA595 /* MarketTag.swift */,
+				4A63D64529DDCDE300FEA595 /* SegmentControl.swift */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -1022,6 +1025,7 @@
 				4A544E5629BF4D0500BDFAC8 /* ContentView.swift in Sources */,
 				4A8AD4B329D6C79B00C2D013 /* Quote.swift in Sources */,
 				4A67944129DABA8700EA5917 /* FFI.swift in Sources */,
+				4A63D64629DDCDE300FEA595 /* SegmentControl.swift in Sources */,
 				4AF698AD29D9CCAA00C0595C /* Tabs.swift in Sources */,
 				4A67943E29DAB7F100EA5917 /* StatusBarColorScheme.swift in Sources */,
 				4A356E8A29CA19520041315F /* JDWidget.intentdefinition in Sources */,
