@@ -39,7 +39,7 @@ struct MarketTag: View {
     }
 }
 
-enum Market: String {
+enum Market: String, CaseIterable {
     /** 美股 */
     case us
     /** 港股 */

@@ -35,6 +35,11 @@ struct TabBar: View {
         .padding(.vertical, 8)
         .frame(minHeight: 49)
         .background(Color.backgroundContent)
+        .overlay(alignment: .top) {
+            Rectangle()
+                .foregroundColor(.borderTertiary)
+                .frame(height: 0.3)
+        }
     }
 }
 
@@ -60,5 +65,6 @@ struct TabBar_Previews: PreviewProvider {
     
     static var previews: some View {
         TabBar(selectedIndex: $selectedIndex)
+            .preferredColorScheme(.dark)
     }
 }
