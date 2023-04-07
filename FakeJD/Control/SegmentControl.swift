@@ -30,7 +30,7 @@ struct SegmentControl: View {
             let isActive = index == currentIndex
             
             Text(option)
-                .font(.system(size: isActive ? activeFontSize : normalFontSize, weight: .semibold))
+                .font(.primary(size: isActive ? activeFontSize : normalFontSize, weight: .semibold))
                 .foregroundColor(isActive ? .mainColor : .textSecondary)
                 .padding(.horizontal, 14)
                 .padding(.vertical, 10)
@@ -49,7 +49,7 @@ struct SegmentControl: View {
             let isActive = index == currentIndex
             
             Text(option)
-                .font(.system(size: normalFontSize, weight: .semibold))
+                .font(.primary(size: normalFontSize, weight: .semibold))
                 .foregroundColor(isActive ? .mainColor : .textSecondary)
                 .animation(.none, value: isActive)
                 .padding(.horizontal, 14)

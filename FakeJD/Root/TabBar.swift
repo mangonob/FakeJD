@@ -53,7 +53,7 @@ struct TabItem: View {
             AnimationView(resourceName: icon, isActive: isActive)
                 .frame(width: 30, height: 30)
             Text(title)
-                .font(.system(size: 10))
+                .font(.primary(size: 10))
         }
         .foregroundColor(isActive ? .mainColor : .gray)
         .frame(maxWidth: .infinity)

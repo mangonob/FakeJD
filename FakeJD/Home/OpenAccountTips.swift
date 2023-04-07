@@ -14,7 +14,7 @@ struct OpenAccountTips: View {
                 VStack(alignment: .leading, spacing: 4) {
                     Text("马上开户")
                         .foregroundColor(.textPrimary)
-                        .font(.system(size: 24, weight: .semibold))
+                        .font(.primary(size: 24, weight: .semibold))
                         .padding(.bottom, 4)
                     Group {
                         Text("投资全球 正规券商")
@@ -28,7 +28,7 @@ struct OpenAccountTips: View {
                         .padding(.top, 14)
                     }
                     .foregroundColor(.textSecondary)
-                    .font(.system(size: 14))
+                    .font(.primary(size: 14))
                 }
                 .minimumScaleFactor(0.5)
                 .scaledToFit()

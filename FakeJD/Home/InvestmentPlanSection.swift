@@ -14,14 +14,14 @@ struct InvestmentPlanSection: View {
                 HStack {
                     MarketTag(market: .us)
                     Text("特斯拉(TSLA)")
-                        .font(.system(size: 16, weight: .medium))
+                        .font(.primary(size: 16, weight: .medium))
                 }
                 
                 HStack(alignment: .firstTextBaseline) {
                     Rate(value: 3.9518)
-                        .font(.system(size: 24, weight: .medium))
+                        .font(.primary(size: 24, weight: .medium))
                     Text("5年定投回报")
-                        .font(.system(size: 20))
+                        .font(.primary(size: 20))
                         .foregroundColor(.textSecondary)
                 }
                 
@@ -52,15 +52,15 @@ fileprivate struct InvestmentPlanItem: View {
         HStack(alignment: .top, spacing: 16) {
             VStack(alignment: .leading, spacing: 6) {
                 Rate(value: rate)
-                    .font(.system(size: 16, weight: .medium))
+                    .font(.primary(size: 16, weight: .medium))
                 
                 Text(description)
-                    .font(.system(size: 12))
+                    .font(.primary(size: 12))
                     .foregroundColor(.textSecondary)
             }
             
             Text(name)
-                .font(.system(size: 16))
+                .font(.primary(size: 16))
                 .frame(maxWidth: .infinity, alignment: .leading)
         }
     }

@@ -23,6 +23,8 @@ struct ContentView: View {
             }
             .transition(.opacity)
         }
+        .foregroundColor(.textPrimary)
+        .font(.primary(size: 16))
         .preferredColorScheme(statusBarStyle == .dark ? .light : .dark)
         .onStatusBarColorSchemeChanged { statusBarStyle = $0 }
         .dynamicTypeSize(.large)

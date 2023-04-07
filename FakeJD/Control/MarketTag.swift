@@ -31,7 +31,7 @@ struct MarketTag: View {
     
     var body: some View {
         Text(market.rawValue.uppercased())
-            .font(.system(size: 12, weight: .light))
+            .font(.primary(size: 12, weight: .light))
             .foregroundColor(textColor)
             .padding(.horizontal, 2)
             .background(textColor.opacity(0.2))

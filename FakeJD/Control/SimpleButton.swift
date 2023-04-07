@@ -43,7 +43,7 @@ struct SimpleButton: View {
     
     var body: some View {
         Text(title)
-            .font(.system(size: 16, weight: .medium))
+            .font(.primary(size: 16, weight: .medium))
             .frame(maxWidth: .infinity)
             .padding(padding)
             .foregroundColor(textColor)

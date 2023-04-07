@@ -34,7 +34,7 @@ struct WatchlistDashboard: View {
                 header
                 Image(systemName: isExpand ? "chevron.down" : "chevron.up")
                     .foregroundColor(Color.textSecondary)
-                    .font(.system(size: 12))
+                    .font(.primary(size: 12))
             }
             .padding(.horizontal, 10)
             .padding(.vertical, 4)
@@ -84,7 +84,7 @@ private struct WatchlistDashboardListItem: View {
             Rate(value: rate1)
             Rate(value: rate2)
         }
-        .font(.system(size: 14, weight: .semibold))
+        .font(.primary(size: 14, weight: .semibold))
     }
 }
 

@@ -42,7 +42,7 @@ struct HotpotSection: View {
                     Text(isExpanded ? "收起" : "查看更多")
                     Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
                 }
-                .font(.system(size: 12))
+                .font(.primary(size: 12))
                 .foregroundColor(.textSecondary)
                 .padding(16)
                 .frame(maxWidth: .infinity)
@@ -71,7 +71,7 @@ fileprivate struct HotpostListItem: View {
         VStack(alignment: .leading, spacing: 8) {
             Text(title)
                 .lineLimit(1)
-                .font(.system(size: 16))
+                .font(.primary(size: 16))
             
             HStack(spacing: 6) {
                 Placeholder()
@@ -79,9 +79,9 @@ fileprivate struct HotpostListItem: View {
                 Text("\(assetId)⋅\(source)")
                 Spacer()
                 Text(date)
-                    .font(.system(size: 10, weight: .semibold))
+                    .font(.primary(size: 10, weight: .semibold))
             }
-            .font(.system(size: 12))
+            .font(.primary(size: 12))
             .foregroundColor(.textSecondary)
         }
     }

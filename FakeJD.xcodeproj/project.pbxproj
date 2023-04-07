@@ -21,6 +21,27 @@
 		4A356E8A29CA19520041315F /* JDWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4A356E8529CA19510041315F /* JDWidget.intentdefinition */; };
 		4A356E8D29CA19520041315F /* JDWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4A356E7829CA19510041315F /* JDWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4A41464829DFEF97001CA4C5 /* HeatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41464729DFEF97001CA4C5 /* HeatMap.swift */; };
+		4A41465E29E000BB001CA4C5 /* DINPro-CondensedBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41464A29E000B6001CA4C5 /* DINPro-CondensedBold.ttf */; };
+		4A41465F29E000BB001CA4C5 /* DINPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41464B29E000B6001CA4C5 /* DINPro-BlackItalic.ttf */; };
+		4A41466029E000BB001CA4C5 /* DINPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41464C29E000B6001CA4C5 /* DINPro-Light.ttf */; };
+		4A41466129E000BB001CA4C5 /* DINPro-CondensedMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41464D29E000B7001CA4C5 /* DINPro-CondensedMedium.ttf */; };
+		4A41466229E000BB001CA4C5 /* DINPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41464E29E000B7001CA4C5 /* DINPro-Medium.ttf */; };
+		4A41466329E000BB001CA4C5 /* DINPro-CondensedBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41464F29E000B7001CA4C5 /* DINPro-CondensedBoldItalic.ttf */; };
+		4A41466429E000BB001CA4C5 /* DINPro-CondensedLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465029E000B8001CA4C5 /* DINPro-CondensedLightItalic.ttf */; };
+		4A41466529E000BB001CA4C5 /* DINPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465129E000B9001CA4C5 /* DINPro-Black.ttf */; };
+		4A41466629E000BB001CA4C5 /* DINPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465229E000B9001CA4C5 /* DINPro-BoldItalic.ttf */; };
+		4A41466729E000BB001CA4C5 /* DINPro-CondensedLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465329E000B9001CA4C5 /* DINPro-CondensedLight.ttf */; };
+		4A41466829E000BB001CA4C5 /* DINPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465429E000BA001CA4C5 /* DINPro-Bold.ttf */; };
+		4A41466929E000BB001CA4C5 /* DINPro-CondensedRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465529E000BA001CA4C5 /* DINPro-CondensedRegular.ttf */; };
+		4A41466A29E000BB001CA4C5 /* DINPro-CondensedMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465629E000BA001CA4C5 /* DINPro-CondensedMediumItalic.ttf */; };
+		4A41466B29E000BB001CA4C5 /* DINPro-CondensedBlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465729E000BA001CA4C5 /* DINPro-CondensedBlackItalic.ttf */; };
+		4A41466C29E000BB001CA4C5 /* DINPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465829E000BA001CA4C5 /* DINPro-Italic.ttf */; };
+		4A41466D29E000BB001CA4C5 /* DINPro-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465929E000BA001CA4C5 /* DINPro-MediumItalic.ttf */; };
+		4A41466E29E000BB001CA4C5 /* DINPro-CondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465A29E000BB001CA4C5 /* DINPro-CondensedItalic.ttf */; };
+		4A41466F29E000BB001CA4C5 /* DINPro-CondensedBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465B29E000BB001CA4C5 /* DINPro-CondensedBlack.ttf */; };
+		4A41467029E000BB001CA4C5 /* DINPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465C29E000BB001CA4C5 /* DINPro.ttf */; };
+		4A41467129E000BB001CA4C5 /* DINPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A41465D29E000BB001CA4C5 /* DINPro-LightItalic.ttf */; };
+		4A41467429E00228001CA4C5 /* Font+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41467329E00228001CA4C5 /* Font+Custom.swift */; };
 		4A4A614D29DB0A8100FCF221 /* tabbar_v80_tab_3.pag in Resources */ = {isa = PBXBuildFile; fileRef = 4A4A610529DB0A7F00FCF221 /* tabbar_v80_tab_3.pag */; };
 		4A4A614E29DB0A8100FCF221 /* tabbar_v80_tab_2.pag in Resources */ = {isa = PBXBuildFile; fileRef = 4A4A610629DB0A7F00FCF221 /* tabbar_v80_tab_2.pag */; };
 		4A4A614F29DB0A8100FCF221 /* membership_upgrade_5.pag in Resources */ = {isa = PBXBuildFile; fileRef = 4A4A610729DB0A7F00FCF221 /* membership_upgrade_5.pag */; };
@@ -133,7 +154,8 @@
 		4AA55EA029DE9E1800F472B9 /* SegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA55E9F29DE9E1800F472B9 /* SegmentControl.swift */; };
 		4AA55EA229DE9E5100F472B9 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA55EA129DE9E5100F472B9 /* Rate.swift */; };
 		4AA55EA429DE9E7900F472B9 /* AssetListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA55EA329DE9E7900F472B9 /* AssetListItem.swift */; };
-		4AD59F1E29CD7DD100E02F5D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD59F1D29CD7DD100E02F5D /* Utils.swift */; };
+		4AD59F1E29CD7DD100E02F5D /* CGSize+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD59F1D29CD7DD100E02F5D /* CGSize+Init.swift */; };
+		4ADB3CCA29E01187006CCF7A /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB3CC929E01187006CCF7A /* DataProvider.swift */; };
 		4AF698A929D779DF00C0595C /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF698A829D779DF00C0595C /* TabBar.swift */; };
 		4AF698AD29D9CCAA00C0595C /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF698AC29D9CCAA00C0595C /* Tabs.swift */; };
 		4AF698D129DAF44200C0595C /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF698D029DAF44200C0595C /* AnimationView.swift */; };
@@ -197,6 +219,28 @@
 		4A356E8629CA19520041315F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A356E8829CA19520041315F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A41464729DFEF97001CA4C5 /* HeatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMap.swift; sourceTree = "<group>"; };
+		4A41464A29E000B6001CA4C5 /* DINPro-CondensedBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondensedBold.ttf"; sourceTree = "<group>"; };
+		4A41464B29E000B6001CA4C5 /* DINPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4A41464C29E000B6001CA4C5 /* DINPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Light.ttf"; sourceTree = "<group>"; };
+		4A41464D29E000B7001CA4C5 /* DINPro-CondensedMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondensedMedium.ttf"; sourceTree = "<group>"; };
+		4A41464E29E000B7001CA4C5 /* DINPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Medium.ttf"; sourceTree = "<group>"; };
+		4A41464F29E000B7001CA4C5 /* DINPro-CondensedBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondensedBoldItalic.ttf"; sourceTree = "<group>"; };
+		4A41465029E000B8001CA4C5 /* DINPro-CondensedLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondensedLightItalic.ttf"; sourceTree = "<group>"; };
+		4A41465129E000B9001CA4C5 /* DINPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Black.ttf"; sourceTree = "<group>"; };
+		4A41465229E000B9001CA4C5 /* DINPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4A41465329E000B9001CA4C5 /* DINPro-CondensedLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondensedLight.ttf"; sourceTree = "<group>"; };
+		4A41465429E000BA001CA4C5 /* DINPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Bold.ttf"; sourceTree = "<group>"; };
+		4A41465529E000BA001CA4C5 /* DINPro-CondensedRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondensedRegular.ttf"; sourceTree = "<group>"; };
+		4A41465629E000BA001CA4C5 /* DINPro-CondensedMediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondensedMediumItalic.ttf"; sourceTree = "<group>"; };
+		4A41465729E000BA001CA4C5 /* DINPro-CondensedBlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondensedBlackItalic.ttf"; sourceTree = "<group>"; };
+		4A41465829E000BA001CA4C5 /* DINPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Italic.ttf"; sourceTree = "<group>"; };
+		4A41465929E000BA001CA4C5 /* DINPro-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4A41465A29E000BB001CA4C5 /* DINPro-CondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondensedItalic.ttf"; sourceTree = "<group>"; };
+		4A41465B29E000BB001CA4C5 /* DINPro-CondensedBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondensedBlack.ttf"; sourceTree = "<group>"; };
+		4A41465C29E000BB001CA4C5 /* DINPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DINPro.ttf; sourceTree = "<group>"; };
+		4A41465D29E000BB001CA4C5 /* DINPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		4A41467229E00119001CA4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4A41467329E00228001CA4C5 /* Font+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Custom.swift"; sourceTree = "<group>"; };
 		4A4A610529DB0A7F00FCF221 /* tabbar_v80_tab_3.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = tabbar_v80_tab_3.pag; sourceTree = "<group>"; };
 		4A4A610629DB0A7F00FCF221 /* tabbar_v80_tab_2.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = tabbar_v80_tab_2.pag; sourceTree = "<group>"; };
 		4A4A610729DB0A7F00FCF221 /* membership_upgrade_5.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = membership_upgrade_5.pag; sourceTree = "<group>"; };
@@ -313,7 +357,8 @@
 		4AA55E9F29DE9E1800F472B9 /* SegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentControl.swift; sourceTree = "<group>"; };
 		4AA55EA129DE9E5100F472B9 /* Rate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
 		4AA55EA329DE9E7900F472B9 /* AssetListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetListItem.swift; sourceTree = "<group>"; };
-		4AD59F1D29CD7DD100E02F5D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4AD59F1D29CD7DD100E02F5D /* CGSize+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Init.swift"; sourceTree = "<group>"; };
+		4ADB3CC929E01187006CCF7A /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		4AF698A829D779DF00C0595C /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		4AF698AC29D9CCAA00C0595C /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		4AF698D029DAF44200C0595C /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
@@ -435,6 +480,33 @@
 			path = JDWidget;
 			sourceTree = "<group>";
 		};
+		4A41464929E000A7001CA4C5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4A41465129E000B9001CA4C5 /* DINPro-Black.ttf */,
+				4A41464B29E000B6001CA4C5 /* DINPro-BlackItalic.ttf */,
+				4A41465429E000BA001CA4C5 /* DINPro-Bold.ttf */,
+				4A41465229E000B9001CA4C5 /* DINPro-BoldItalic.ttf */,
+				4A41465B29E000BB001CA4C5 /* DINPro-CondensedBlack.ttf */,
+				4A41465729E000BA001CA4C5 /* DINPro-CondensedBlackItalic.ttf */,
+				4A41464A29E000B6001CA4C5 /* DINPro-CondensedBold.ttf */,
+				4A41464F29E000B7001CA4C5 /* DINPro-CondensedBoldItalic.ttf */,
+				4A41465A29E000BB001CA4C5 /* DINPro-CondensedItalic.ttf */,
+				4A41465329E000B9001CA4C5 /* DINPro-CondensedLight.ttf */,
+				4A41465029E000B8001CA4C5 /* DINPro-CondensedLightItalic.ttf */,
+				4A41464D29E000B7001CA4C5 /* DINPro-CondensedMedium.ttf */,
+				4A41465629E000BA001CA4C5 /* DINPro-CondensedMediumItalic.ttf */,
+				4A41465529E000BA001CA4C5 /* DINPro-CondensedRegular.ttf */,
+				4A41465829E000BA001CA4C5 /* DINPro-Italic.ttf */,
+				4A41464C29E000B6001CA4C5 /* DINPro-Light.ttf */,
+				4A41465D29E000BB001CA4C5 /* DINPro-LightItalic.ttf */,
+				4A41464E29E000B7001CA4C5 /* DINPro-Medium.ttf */,
+				4A41465929E000BA001CA4C5 /* DINPro-MediumItalic.ttf */,
+				4A41465C29E000BB001CA4C5 /* DINPro.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		4A4A610429DB0A5D00FCF221 /* PAG */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +614,7 @@
 		4A544E5229BF4D0500BDFAC8 /* FakeJD */ = {
 			isa = PBXGroup;
 			children = (
+				4ADB3CC829E0117B006CCF7A /* Utils */,
 				4A63D63829DB220300FEA595 /* Control */,
 				4AF698AE29DAF3B400C0595C /* Resources */,
 				4A67943B29DAB7CF00EA5917 /* Modifier */,
@@ -554,6 +627,7 @@
 				4A544E8129BF540600BDFAC8 /* Home */,
 				4A544E8029BF53FF00BDFAC8 /* Root */,
 				4A544E7D29BF4FA600BDFAC8 /* Appearence */,
+				4A41467229E00119001CA4C5 /* Info.plist */,
 				4A544E5329BF4D0500BDFAC8 /* FakeJDApp.swift */,
 				4A544E5529BF4D0500BDFAC8 /* ContentView.swift */,
 				4A63D63429DB1E7400FEA595 /* Launch Screen.storyboard */,
@@ -663,16 +737,26 @@
 		4AD59F1C29CD7DB700E02F5D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4AD59F1D29CD7DD100E02F5D /* Utils.swift */,
+				4AD59F1D29CD7DD100E02F5D /* CGSize+Init.swift */,
 				4A8AD4B629D6CDEB00C2D013 /* Color+RGB.swift */,
 				4A67944029DABA8700EA5917 /* FFI.swift */,
+				4A41467329E00228001CA4C5 /* Font+Custom.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		4ADB3CC829E0117B006CCF7A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4ADB3CC929E01187006CCF7A /* DataProvider.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		4AF698AE29DAF3B400C0595C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4A41464929E000A7001CA4C5 /* Fonts */,
 				4A4A610429DB0A5D00FCF221 /* PAG */,
 			);
 			path = Resources;
@@ -838,8 +922,11 @@
 				4A4A615A29DB0A8100FCF221 /* tabbar_v80_tab_0_skin2.pag in Resources */,
 				4A4A615929DB0A8100FCF221 /* emptyview_failed_module_skin2.pag in Resources */,
 				4A4A617829DB0A8100FCF221 /* membership_upgrade_4.pag in Resources */,
+				4A41466F29E000BB001CA4C5 /* DINPro-CondensedBlack.ttf in Resources */,
 				4A4A616829DB0A8100FCF221 /* post_detail_share_cn_skin2.pag in Resources */,
 				4A544E5B29BF4D0600BDFAC8 /* Preview Assets.xcassets in Resources */,
+				4A41466729E000BB001CA4C5 /* DINPro-CondensedLight.ttf in Resources */,
+				4A41466929E000BB001CA4C5 /* DINPro-CondensedRegular.ttf in Resources */,
 				4A4A618C29DB0A8100FCF221 /* college_lesson_list.pag in Resources */,
 				4A4A619129DB0A8100FCF221 /* membership_upgrade_1.pag in Resources */,
 				4A544E5829BF4D0600BDFAC8 /* Assets.xcassets in Resources */,
@@ -851,7 +938,10 @@
 				4A4A615F29DB0A8100FCF221 /* welcom_guide_intro_0.pag in Resources */,
 				4A4A614F29DB0A8100FCF221 /* membership_upgrade_5.pag in Resources */,
 				4A4A616D29DB0A8100FCF221 /* tabbar_v80_tab_0_skin0.pag in Resources */,
+				4A41466329E000BB001CA4C5 /* DINPro-CondensedBoldItalic.ttf in Resources */,
 				4A4A617B29DB0A8100FCF221 /* newbie_gift.pag in Resources */,
+				4A41466129E000BB001CA4C5 /* DINPro-CondensedMedium.ttf in Resources */,
+				4A41466A29E000BB001CA4C5 /* DINPro-CondensedMediumItalic.ttf in Resources */,
 				4A4A618F29DB0A8100FCF221 /* membership_upgrade_2.pag in Resources */,
 				4A4A616F29DB0A8100FCF221 /* community_living.pag in Resources */,
 				4A4A616629DB0A8100FCF221 /* tb_tab_homepage.pag in Resources */,
@@ -861,10 +951,15 @@
 				4A4A616029DB0A8100FCF221 /* tb_stock_detail_unselected_watch_skin2.pag in Resources */,
 				4A4A617F29DB0A8100FCF221 /* welcom_guide_intro_2.pag in Resources */,
 				4A4A617629DB0A8100FCF221 /* welcom_guide_intro_lite_0.pag in Resources */,
+				4A41466E29E000BB001CA4C5 /* DINPro-CondensedItalic.ttf in Resources */,
 				4A4A618629DB0A8100FCF221 /* login_verify_success.pag in Resources */,
 				4A4A615529DB0A8100FCF221 /* post_detail_share_cn.pag in Resources */,
 				4A4A615029DB0A8100FCF221 /* launch_animation_lite.pag in Resources */,
+				4A41466829E000BB001CA4C5 /* DINPro-Bold.ttf in Resources */,
+				4A41467129E000BB001CA4C5 /* DINPro-LightItalic.ttf in Resources */,
+				4A41467029E000BB001CA4C5 /* DINPro.ttf in Resources */,
 				4A4A618E29DB0A8100FCF221 /* tb_no_push_setting_skin2.pag in Resources */,
+				4A41466629E000BB001CA4C5 /* DINPro-BoldItalic.ttf in Resources */,
 				4A4A615C29DB0A8100FCF221 /* emptyview_failed_page_skin2.pag in Resources */,
 				4A4A617729DB0A8100FCF221 /* homepage_live_status.pag in Resources */,
 				4A4A617529DB0A8100FCF221 /* tb_tap_switch_setting_watchlist_skin2.pag in Resources */,
@@ -872,15 +967,19 @@
 				4A4A618029DB0A8100FCF221 /* tabbar_v80_tab_0_top_skin0.pag in Resources */,
 				4A4A619429DB0A8100FCF221 /* tabbar_v80_tab_0_down_skin2.pag in Resources */,
 				4A4A616129DB0A8100FCF221 /* tabbar_v80_tab_3_skin0.pag in Resources */,
+				4A41466229E000BB001CA4C5 /* DINPro-Medium.ttf in Resources */,
 				4A4A618229DB0A8100FCF221 /* tb_stock_detail_selected_watch_skin2.pag in Resources */,
 				4A4A616229DB0A8100FCF221 /* membership_upgrade_6.pag in Resources */,
 				4A4A616529DB0A8100FCF221 /* tb_stock_detail_selected_watch.pag in Resources */,
 				4A4A619029DB0A8100FCF221 /* tb_tab_homepage_cn.pag in Resources */,
 				4A4A618129DB0A8100FCF221 /* network_prompt_loading.pag in Resources */,
 				4A4A618D29DB0A8100FCF221 /* tabbar_v80_tab_4_skin2.pag in Resources */,
+				4A41465F29E000BB001CA4C5 /* DINPro-BlackItalic.ttf in Resources */,
 				4A4A615429DB0A8100FCF221 /* tiger_GPT.pag in Resources */,
 				4A4A619229DB0A8100FCF221 /* tabbar_v80_tab_1_skin0.pag in Resources */,
 				4A4A618B29DB0A8100FCF221 /* tabbar_v80_tab_4.pag in Resources */,
+				4A41466429E000BB001CA4C5 /* DINPro-CondensedLightItalic.ttf in Resources */,
+				4A41466B29E000BB001CA4C5 /* DINPro-CondensedBlackItalic.ttf in Resources */,
 				4A4A615829DB0A8100FCF221 /* tab_birthday.pag in Resources */,
 				4A4A617E29DB0A8100FCF221 /* welcom_guide_intro_1.pag in Resources */,
 				4A4A619329DB0A8100FCF221 /* tb_tap_switch_setting_watchlist.pag in Resources */,
@@ -889,19 +988,24 @@
 				4A4A617029DB0A8100FCF221 /* tabbar_v80_tab_0.pag in Resources */,
 				4A4A618929DB0A8100FCF221 /* tabbar_v80_tab_1_skin2.pag in Resources */,
 				4A4A615129DB0A8100FCF221 /* tb_tap_switch_setting_tab.pag in Resources */,
+				4A41466C29E000BB001CA4C5 /* DINPro-Italic.ttf in Resources */,
 				4A4A616A29DB0A8100FCF221 /* tabbar_v80_tab_0_down_skin0.pag in Resources */,
+				4A41466029E000BB001CA4C5 /* DINPro-Light.ttf in Resources */,
 				4A4A617329DB0A8100FCF221 /* community_post.pag in Resources */,
+				4A41465E29E000BB001CA4C5 /* DINPro-CondensedBold.ttf in Resources */,
 				4A4A617A29DB0A8100FCF221 /* emptyview_failed_module.pag in Resources */,
 				4A4A617229DB0A8100FCF221 /* tabbar_v80_tab_0_down.pag in Resources */,
 				4A4A615B29DB0A8100FCF221 /* membership_upgrade.pag in Resources */,
 				4A4A616C29DB0A8100FCF221 /* tabbar_v80_tab_1.pag in Resources */,
 				4A4A616329DB0A8100FCF221 /* tb_no_push_setting.pag in Resources */,
+				4A41466D29E000BB001CA4C5 /* DINPro-MediumItalic.ttf in Resources */,
 				4A4A614D29DB0A8100FCF221 /* tabbar_v80_tab_3.pag in Resources */,
 				4A63D63529DB1E7400FEA595 /* Launch Screen.storyboard in Resources */,
 				4A4A616929DB0A8100FCF221 /* membership_upgrade_7.pag in Resources */,
 				4A4A615729DB0A8100FCF221 /* tabbar_v80_tab_0_top.pag in Resources */,
 				4A4A615329DB0A8100FCF221 /* membership_upgrade_3.pag in Resources */,
 				4A4A616B29DB0A8100FCF221 /* post_detail_share_global.pag in Resources */,
+				4A41466529E000BB001CA4C5 /* DINPro-Black.ttf in Resources */,
 				4A4A617C29DB0A8100FCF221 /* emptyview_failed_page.pag in Resources */,
 				4A4A615229DB0A8100FCF221 /* pag_rsp_success_hint.pag in Resources */,
 				4A4A615D29DB0A8100FCF221 /* tb_stock_detail_depth_mask.pag in Resources */,
@@ -1075,6 +1179,7 @@
 				4A63D64829DEFDF200FEA595 /* WatchlistTips.swift in Sources */,
 				4A63D63729DB205D00FEA595 /* OpenAccountTips.swift in Sources */,
 				4AA55E9329DE751E00F472B9 /* Fund.swift in Sources */,
+				4ADB3CCA29E01187006CCF7A /* DataProvider.swift in Sources */,
 				4A8AD4B929D6DAEA00C2D013 /* NavigationBar.swift in Sources */,
 				4A8AD4B529D6C84E00C2D013 /* Community.swift in Sources */,
 				4A8AD4B129D6C77F00C2D013 /* OpenAccount.swift in Sources */,
@@ -1102,10 +1207,11 @@
 				4A544E8529BF547E00BDFAC8 /* Home.swift in Sources */,
 				4A63D63329DB153200FEA595 /* Launch.swift in Sources */,
 				4AA55E8D29DE750100F472B9 /* Watchlist.swift in Sources */,
-				4AD59F1E29CD7DD100E02F5D /* Utils.swift in Sources */,
+				4AD59F1E29CD7DD100E02F5D /* CGSize+Init.swift in Sources */,
 				4AA55E8B29DE74EA00F472B9 /* Descovery.swift in Sources */,
 				4A544E5429BF4D0500BDFAC8 /* FakeJDApp.swift in Sources */,
 				4A0058D629C45ABF0065EEE2 /* Examples.swift in Sources */,
+				4A41467429E00228001CA4C5 /* Font+Custom.swift in Sources */,
 				4A1B859329C2BFF0000A428D /* Mine.swift in Sources */,
 				4A63D63D29DB287D00FEA595 /* HomeSection.swift in Sources */,
 				4A544E8329BF544D00BDFAC8 /* RootTabBar.swift in Sources */,
@@ -1336,6 +1442,7 @@
 				DEVELOPMENT_TEAM = 9NB388HG22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FakeJD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1369,6 +1476,7 @@
 				DEVELOPMENT_TEAM = 9NB388HG22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FakeJD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

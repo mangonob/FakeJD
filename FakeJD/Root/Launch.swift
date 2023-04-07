@@ -19,12 +19,13 @@ struct Launch: View {
                     .ignoresSafeArea()
                 Spacer()
                 Text("Global Markets in Your Pocket")
-                    .font(.system(size: 15, weight: .light))
+                    .font(.primary(size: 15))
                     .padding(.bottom, 16)
                 Text("BY TIGER FINTECH")
-                    .font(.system(size: 12, weight: .light))
+                    .font(.primary(size: 12))
                     .padding(.bottom, 36)
             }
+            .foregroundColor(.black)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.mainColor)
         }

@@ -71,7 +71,7 @@ struct WatchlistWithMarket: View {
                 Text("添加股票")
             }
             .foregroundColor(.textPrimary)
-            .font(.system(size: 12))
+            .font(.primary(size: 12))
             .padding(.horizontal, 20)
             .padding(.vertical, 6)
             .overlay {

@@ -16,7 +16,7 @@ struct HomeSection<Content>: View where Content: View {
             HStack {
                 Text(title)
                     .foregroundColor(.textPrimary)
-                    .font(.system(size: 24, weight: .semibold))
+                    .font(.primary(size: 24, weight: .semibold))
                     .padding(.vertical, 16)
                 
                 Spacer()

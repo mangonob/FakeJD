@@ -15,10 +15,10 @@ struct WatchlistTips: View {
         HStack(spacing: 0) {
             Text("清明节、耶稣受难日几复活节假期休市安排")
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .font(.system(size: 14))
+                .font(.primary(size: 14))
                 .padding(.leading, 16)
             Text("查看")
-                .font(.system(size: 12))
+                .font(.primary(size: 12))
                 .padding(.horizontal, 8)
                 .padding(.vertical, 4)
                 .cornerRadius(4)
@@ -30,7 +30,7 @@ struct WatchlistTips: View {
                     viewAction?()
                 }
             Image(systemName: "multiply")
-                .font(.system(size: 12))
+                .font(.primary(size: 12))
                 .foregroundColor(.textSecondary)
                 .padding(10)
                 .contentShape(Rectangle())

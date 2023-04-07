@@ -24,12 +24,12 @@ struct AssetListItem: View {
     var assetName: some View {
         VStack(alignment: .leading, spacing: 6) {
             Text(name)
-                .font(.system(size: 16, weight: .medium))
+                .font(.primary(size: 16, weight: .medium))
             
             HStack {
                 MarketTag(market: market)
                 Text(assetID)
-                    .font(.system(size: 14))
+                    .font(.primary(size: 14))
                     .foregroundColor(.textSecondary)
             }
         }

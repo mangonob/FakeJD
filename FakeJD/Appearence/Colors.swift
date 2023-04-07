@@ -22,13 +22,16 @@ extension Color {
     static let lightPink = Color(rgb: 0xE0625B)
     static let pinkGreen = Color(rgb: 0x61C484)
     
-    static func colorForSign<T: BinaryFloatingPoint>(_ value: T) -> Color {
+    static let deepRed = Color(rgb: 0xC94049)
+    static let deepGreen = Color(rgb: 0x6AA975)
+    
+    static func colorForSign<T: BinaryFloatingPoint>(_ value: T, positive: Color = .lightPink, negetive: Color = .lightPink, zero: Color = .textSecondary) -> Color {
         if value > 0.0 {
-            return .lightPink
+            return positive
         } else if value < 0.0 {
-            return .pinkGreen
+            return negetive
         } else {
-            return .textSecondary
+            return zero
         }
     }
 }
