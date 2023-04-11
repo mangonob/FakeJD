@@ -9,8 +9,12 @@ import SwiftUI
 
 struct Mine: View {
     var body: some View {
-        Text("Hello, World!")
-            .preferredStatusBarColorScheme(.dark)
+        NavigationLink {
+            Examples()
+        } label: {
+            Text("Example")
+        }
+        .preferredStatusBarColorScheme(.light)
     }
 }
 

@@ -44,10 +44,10 @@ struct DefaultNavigationContentModifier: ViewModifier {
     
     func body(content: Content) -> some View {
         content
-        .navigationBarTitleDisplayMode(.inline)
-        .toolbar(.visible, for: .navigationBar)
-        .toolbarBackground(.visible, for: .navigationBar)
-        .navigationTitle(title)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar(.visible, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+            .navigationTitle(title)
     }
 }
 

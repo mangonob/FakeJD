@@ -133,6 +133,8 @@
 		4A63D64229DB2AE100FEA595 /* MarketTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D64129DB2AE100FEA595 /* MarketTag.swift */; };
 		4A63D64429DB366C00FEA595 /* WatchListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D64329DB366C00FEA595 /* WatchListSection.swift */; };
 		4A63D64829DEFDF200FEA595 /* WatchlistTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D64729DEFDF200FEA595 /* WatchlistTips.swift */; };
+		4A63D64D29E85E6200FEA595 /* TrendChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D64C29E85E6200FEA595 /* TrendChart.swift */; };
+		4A63D64F29E85E7E00FEA595 /* TrendGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A63D64E29E85E7E00FEA595 /* TrendGrid.swift */; };
 		4A67943E29DAB7F100EA5917 /* StatusBarColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67943D29DAB7F100EA5917 /* StatusBarColorScheme.swift */; };
 		4A67944129DABA8700EA5917 /* FFI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67944029DABA8700EA5917 /* FFI.swift */; };
 		4A67944329DBB21E00EA5917 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67944229DBB21E00EA5917 /* Placeholder.swift */; };
@@ -336,6 +338,8 @@
 		4A63D64329DB366C00FEA595 /* WatchListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListSection.swift; sourceTree = "<group>"; };
 		4A63D64529DDCDE300FEA595 /* SegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControl.swift; sourceTree = "<group>"; };
 		4A63D64729DEFDF200FEA595 /* WatchlistTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistTips.swift; sourceTree = "<group>"; };
+		4A63D64C29E85E6200FEA595 /* TrendChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendChart.swift; sourceTree = "<group>"; };
+		4A63D64E29E85E7E00FEA595 /* TrendGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendGrid.swift; sourceTree = "<group>"; };
 		4A67943D29DAB7F100EA5917 /* StatusBarColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarColorScheme.swift; sourceTree = "<group>"; };
 		4A67944029DABA8700EA5917 /* FFI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFI.swift; sourceTree = "<group>"; };
 		4A67944229DBB21E00EA5917 /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
@@ -707,6 +711,7 @@
 		4A63D63829DB220300FEA595 /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				4A63D64B29E85B1400FEA595 /* TrendChart */,
 				4A63D63929DB220E00FEA595 /* SimpleButton.swift */,
 				4A63D64129DB2AE100FEA595 /* MarketTag.swift */,
 				4A67944229DBB21E00EA5917 /* Placeholder.swift */,
@@ -716,6 +721,15 @@
 				4A41464729DFEF97001CA4C5 /* HeatMap.swift */,
 			);
 			path = Control;
+			sourceTree = "<group>";
+		};
+		4A63D64B29E85B1400FEA595 /* TrendChart */ = {
+			isa = PBXGroup;
+			children = (
+				4A63D64C29E85E6200FEA595 /* TrendChart.swift */,
+				4A63D64E29E85E7E00FEA595 /* TrendGrid.swift */,
+			);
+			path = TrendChart;
 			sourceTree = "<group>";
 		};
 		4A67943B29DAB7CF00EA5917 /* Modifier */ = {
@@ -1192,6 +1206,7 @@
 				4AA55EA429DE9E7900F472B9 /* AssetListItem.swift in Sources */,
 				4A53996829DFA19900AB4ADE /* WatchlistWithMarket.swift in Sources */,
 				4AA55E9529DE752700F472B9 /* Global.swift in Sources */,
+				4A63D64F29E85E7E00FEA595 /* TrendGrid.swift in Sources */,
 				4A356E8A29CA19520041315F /* JDWidget.intentdefinition in Sources */,
 				4AA55EA029DE9E1800F472B9 /* SegmentControl.swift in Sources */,
 				4A63D64229DB2AE100FEA595 /* MarketTag.swift in Sources */,
@@ -1205,6 +1220,7 @@
 				4A63D64429DB366C00FEA595 /* WatchListSection.swift in Sources */,
 				4A67944329DBB21E00EA5917 /* Placeholder.swift in Sources */,
 				4A544E8529BF547E00BDFAC8 /* Home.swift in Sources */,
+				4A63D64D29E85E6200FEA595 /* TrendChart.swift in Sources */,
 				4A63D63329DB153200FEA595 /* Launch.swift in Sources */,
 				4AA55E8D29DE750100F472B9 /* Watchlist.swift in Sources */,
 				4AD59F1E29CD7DD100E02F5D /* CGSize+Init.swift in Sources */,
