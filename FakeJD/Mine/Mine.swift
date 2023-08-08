@@ -9,12 +9,7 @@ import SwiftUI
 
 struct Mine: View {
     var body: some View {
-        NavigationLink {
-            Examples()
-        } label: {
-            Text("Example")
-        }
-        .preferredStatusBarColorScheme(.light)
+        Examples()
     }
 }
 

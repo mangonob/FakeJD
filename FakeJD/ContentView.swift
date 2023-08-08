@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var statusBarStyle: ColorScheme = .dark
-    @State var rootType: RootType = .launch
+    @State var rootType: RootType = .root
     
     var body: some View {
         NavigationStack {
@@ -32,7 +32,7 @@ struct ContentView: View {
             Task {
                 try await Task.sleep(for: .seconds(3))
                 withAnimation(.easeOut(duration: 1)) {
-                    rootType = .root
+                    // rootType = .root
                 }
             }
         }
