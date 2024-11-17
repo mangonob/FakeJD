@@ -56,8 +56,6 @@ fileprivate struct AnimationDemo: View {
     }
 }
 
-struct AnimationView_Previews: PreviewProvider {
-    static var previews: some View {
-        AnimationDemo()
-    }
+#Preview {
+    AnimationDemo()
 }
