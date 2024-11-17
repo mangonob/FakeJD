@@ -21,21 +21,12 @@ struct ContentView: View {
                     RootTabBar()
                 }
             }
-            .transition(.opacity)
         }
         .foregroundColor(.textPrimary)
         .font(.primary(size: 16))
         .preferredColorScheme(statusBarStyle == .dark ? .light : .dark)
         .onStatusBarColorSchemeChanged { statusBarStyle = $0 }
         .dynamicTypeSize(.large)
-        .task {
-            Task {
-                try await Task.sleep(for: .seconds(3))
-                withAnimation(.easeOut(duration: 1)) {
-                    // rootType = .root
-                }
-            }
-        }
     }
 }
 

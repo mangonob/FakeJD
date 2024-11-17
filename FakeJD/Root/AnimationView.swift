@@ -13,7 +13,7 @@ struct AnimationView: View {
     var repeatCount: Int = 1
     
     var body: some View {
-        Text("PAG")
+        Rectangle()
     }
 }
 
