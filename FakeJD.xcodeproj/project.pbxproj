@@ -139,7 +139,6 @@
 		4A67944329DBB21E00EA5917 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67944229DBB21E00EA5917 /* Placeholder.swift */; };
 		4A67944529DBD14D00EA5917 /* InvestmentPlanSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67944429DBD14D00EA5917 /* InvestmentPlanSection.swift */; };
 		4A67944929DBD60500EA5917 /* HotpotSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67944829DBD60500EA5917 /* HotpotSection.swift */; };
-		4A6E40772CE9A69500441681 /* libpag in Frameworks */ = {isa = PBXBuildFile; productRef = 4A6E40762CE9A69500441681 /* libpag */; };
 		4A8AD4B129D6C77F00C2D013 /* OpenAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD4B029D6C77F00C2D013 /* OpenAccount.swift */; };
 		4A8AD4B329D6C79B00C2D013 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD4B229D6C79B00C2D013 /* Quote.swift */; };
 		4A8AD4B529D6C84E00C2D013 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD4B429D6C84E00C2D013 /* Community.swift */; };
@@ -375,7 +374,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A6E40772CE9A69500441681 /* libpag in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -862,7 +860,6 @@
 			);
 			mainGroup = 4A544E4729BF4D0500BDFAC8;
 			packageReferences = (
-				4A6E40752CE9A5F700441681 /* XCRemoteSwiftPackageReference "pag-ios" */,
 			);
 			productRefGroup = 4A544E5129BF4D0500BDFAC8 /* Products */;
 			projectDirPath = "";
@@ -1464,25 +1461,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		4A6E40752CE9A5F700441681 /* XCRemoteSwiftPackageReference "pag-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/libpag/pag-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.4.15;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		4A6E40762CE9A69500441681 /* libpag */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4A6E40752CE9A5F700441681 /* XCRemoteSwiftPackageReference "pag-ios" */;
-			productName = libpag;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4A544E4829BF4D0500BDFAC8 /* Project object */;
 }
